@@ -1,0 +1,157 @@
+    *{
+        margin: 0;
+        padding: 0;
+        
+    }
+    img{
+        width: 100%;
+        
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    a:hover{
+        color: white;
+        
+    }
+    h2{
+    color: white;
+    font-size: 3rem;
+    }
+    p{
+        color: white;
+        font-size: 1.5rem;
+    }
+
+    .container{
+        position:static;
+        padding: 0;
+        height: auto;
+        display: grid;
+        grid-gap: 2px;
+        grid-template-areas:
+        "header"
+        "about"
+        "menu"
+        "contact"
+        "map"
+        "footer";
+    }    
+  
+    .present{
+        
+        grid-area: header;
+        position: static;
+        background: url("../images/imagecompressor/ambiente_restaurant-min.jpg") 0 / cover fixed;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;   
+
+    }
+    
+    .text{
+        font-size: 3rem;
+        margin-bottom: 50px;
+    }
+    .button_menu{
+        
+        border: none;
+        background-color: black;
+        color: white;
+        display:flex;
+        font-size: 2rem;
+        max-width: 200px;
+        height: 80px;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+
+    }
+    
+    .structure{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2em;
+        text-align: center;
+
+    }
+    
+    .menu{
+        background-color: blue;
+        grid-area: menu;
+        position: static;
+        background: transparent url("../images/imagecompressor/chef-min.jpg") 0 / cover fixed;
+        height: 500px;
+        
+        }
+
+    .about{
+        background-color: brown;
+        grid-area: about;
+        position: static;
+        background: transparent url("/images/imagecompressor/sirloin-min.jpg") 0 / cover fixed ;
+        height: 500px;
+        justify-content:space-evenly;
+       
+    }
+    .contact{
+        background-color: chocolate;
+        grid-area: contact;
+        text-align: center;
+        padding: 2em;
+        height: 500px;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: transparent url("/images/imagecompressor/burguer-min.jpg") 0 / cover fixed ;
+        
+        }
+    
+    .socialmedia{
+        color: white;
+        font-size: 50px;    
+        
+        margin: 2rem;
+        
+    }
+
+    .footer{
+        grid-area: footer;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100px;
+    }
+    .map{
+        grid-area: map;
+        height: 500px;
+    }
+
+
+
+    @media (min-width: 768px){
+        .container{
+            height: auto;
+            grid-template-areas: 
+            "header header"
+            "about menu"
+            "contact map"
+            "footer footer"
+           
+            
+           
+        }
+        .map{
+            height: auto;
+        }
+    }
