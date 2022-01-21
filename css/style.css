@@ -5,7 +5,7 @@
     }
     img{
         width: 100%;
-        
+       
     }
     a{
         color: white;
@@ -38,13 +38,14 @@
         "contact"
         "map"
         "footer";
-    }    
+    }   
+    
   
     .present{
         
         grid-area: header;
         position: static;
-        background: url("../images/ambiente_restaurant-min.jpg") 0 / cover fixed;
+        background: url("../images/ambiente_restaurant-min.jpg") 0 / cover;
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -87,7 +88,7 @@
         
         grid-area: menu;
         position: static;
-        background: transparent url("../images/chef-min.jpg") 0 / cover fixed;
+        background: url("../images/chef-min.jpg") 0 / cover;
         height: 500px;
         
     }
@@ -96,13 +97,13 @@
         
         grid-area: about;
         position: static;
-        background: transparent url("../images/sirloin-min.jpg") 0 / cover fixed ;
+        background: url("../images/sirloin-min.jpg") 0 / cover;
         height: 500px;
         justify-content:space-evenly;
        
     }
     .contact{
-        background-color: chocolate;
+        
         grid-area: contact;
         text-align: center;
         padding: 2em;
@@ -111,9 +112,10 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: transparent url("../images/burguer-min.jpg") 0 / cover fixed ;
+        background: url("../images/burguer-min.jpg") 0 / cover;
         
         }
+   
     
     .socialmedia{
         color: white;
