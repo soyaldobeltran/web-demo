@@ -44,7 +44,7 @@
         
         grid-area: header;
         position: static;
-        background: url("../images/imagecompressor/ambiente_restaurant-min.jpg") 0 / cover fixed;
+        background: url("../images/ambiente_restaurant-min.jpg") 0 / cover fixed;
         height: 700px;
         display: flex;
         flex-direction: column;
@@ -87,7 +87,7 @@
         background-color: blue;
         grid-area: menu;
         position: static;
-        background: transparent url("../images/imagecompressor/chef-min.jpg") 0 / cover fixed;
+        background: transparent url("../images/chef-min.jpg") 0 / cover fixed;
         height: 500px;
         
         }
@@ -96,7 +96,7 @@
         background-color: brown;
         grid-area: about;
         position: static;
-        background: transparent url("/images/sirloin.jpg") 0 / cover fixed ;
+        background: transparent url("../images/sirloin-min.jpg") 0 / cover fixed ;
         height: 500px;
         justify-content:space-evenly;
        
@@ -111,7 +111,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: transparent url("/images/burguer.jpg") 0 / cover fixed ;
+        background: transparent url("../images/burguer-min.jpg") 0 / cover fixed ;
         
         }
     
