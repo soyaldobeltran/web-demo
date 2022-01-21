@@ -96,7 +96,7 @@
         background-color: brown;
         grid-area: about;
         position: static;
-        background: transparent url("/images/imagecompressor/sirloin-min.jpg") 0 / cover fixed ;
+        background: transparent url("/images/sirloin.jpg") 0 / cover fixed ;
         height: 500px;
         justify-content:space-evenly;
        
@@ -111,7 +111,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: transparent url("/images/imagecompressor/burguer-min.jpg") 0 / cover fixed ;
+        background: transparent url("/images/burguer.jpg") 0 / cover fixed ;
         
         }
     
