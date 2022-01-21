@@ -84,16 +84,16 @@
     }
     
     .menu{
-        background-color: blue;
+        
         grid-area: menu;
         position: static;
         background: transparent url("../images/chef-min.jpg") 0 / cover fixed;
         height: 500px;
         
-        }
+    }
 
-    .about{
-        background-color: brown;
+    .about {
+        
         grid-area: about;
         position: static;
         background: transparent url("../images/sirloin-min.jpg") 0 / cover fixed ;
@@ -147,8 +147,6 @@
             "about menu"
             "contact map"
             "footer footer"
-           
-            
            
         }
         .map{
