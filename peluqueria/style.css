@@ -1,0 +1,152 @@
+    *{
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+    img{
+        width: 100%;
+    }
+    body{
+        background-color: white;
+        
+        
+    }
+        /*Navbar*/
+    .container-fluid a{
+        font-size: 1.5em;
+    }
+    
+    .contener-items .nav-link{
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item{
+        margin: 0 1.5em; 
+    }
+
+    .navbar-brand{
+        
+        font-size: 3em;
+        font-weight: bold;
+    }
+   
+    
+    /*Estructura*/
+    
+    
+    .header{
+        grid-area: header;
+        height:60px;
+        width: 100%;
+        
+    }
+    .carrusel{
+        
+        grid-area: carrusel;
+        width: 100%;
+    
+       
+    
+    }
+    .contenido{
+        width: 100%;
+        grid-area: contenido;
+        display: grid;
+        height: auto;
+       
+        grid-template-areas:"acerca"
+                            "contacto"
+                            "map";
+    }
+    .acerca{
+        grid-area: acerca;
+        padding: 2em;
+        height: auto;
+        text-align: center;
+        display:grid; 
+        grid-gap: 20px;
+        grid-template-areas:"titulo_c"
+                            "service1"
+                            
+                            "service2"
+                            
+                            "service3";        
+    }
+    .titulo_c{
+        grid-area: titulo_c;
+        
+    }
+    .service1{
+        grid-area: service1;
+
+    }
+    .service2{
+        grid-area: service2;
+        
+    }
+    .service3{
+        grid-area: service3;
+        
+    }
+    .card{
+        
+        box-shadow: 2px 2px 2em 3px rgba(0, 0, 0, 0.2);
+
+        
+
+    }
+    .card h3,p{
+        padding: 1em;
+    }
+    
+    .contacto{
+        
+        grid-area: contacto;
+        height: 350px;
+        background-color: rgb(255, 204, 95);
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+
+    }
+    .contacto h2{
+        padding-bottom: 2rem;
+        font-size: auto;
+    }
+    .socialmedia{
+        font-size: 3em;
+        display: flex;
+        justify-content: space-evenly;
+        
+    }
+    .socialmedia a{
+        text-decoration: none;
+        color: black;
+    }
+    .map{
+        grid-area: map;
+        
+        height: auto;
+        margin: 0;
+        padding: 0;
+        
+    }
+    .footer{
+        grid-area: footer;
+        background-color: black;
+        height: 150px;
+        }
+@media (min-width: 991px) {
+            /*Navbar*/
+
+    
+    .acerca{
+        grid-template-areas:"titulo_c titulo_c titulo_c"
+                            "service1 service2 service3";
+    }
+
+}
+   
